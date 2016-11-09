@@ -1,0 +1,50 @@
+﻿  Source.cpp
+d:\hw 6\hw 14.7\hw 14.7\header.h(24): error C3646: 'toString': unknown override specifier
+d:\hw 6\hw 14.7\hw 14.7\header.h(24): error C2059: syntax error: '('
+d:\hw 6\hw 14.7\hw 14.7\header.h(24): error C2238: unexpected token(s) preceding ';'
+d:\hw 6\hw 14.7\hw 14.7\header.h(29): error C2143: syntax error: missing ';' before '&'
+d:\hw 6\hw 14.7\hw 14.7\header.h(29): error C2433: 'ostream': 'friend' not permitted on data declarations
+d:\hw 6\hw 14.7\hw 14.7\header.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\hw 6\hw 14.7\hw 14.7\header.h(29): error C2238: unexpected token(s) preceding ';'
+d:\hw 6\hw 14.7\hw 14.7\header.h(30): error C2143: syntax error: missing ';' before '&'
+d:\hw 6\hw 14.7\hw 14.7\header.h(30): error C2433: 'istream': 'friend' not permitted on data declarations
+d:\hw 6\hw 14.7\hw 14.7\header.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\hw 6\hw 14.7\hw 14.7\header.h(30): error C2238: unexpected token(s) preceding ';'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(30): error C2106: '=': left operand must be l-value
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(35): error C2106: '=': left operand must be l-value
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(39): error C2106: '=': left operand must be l-value
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(44): error C2106: '=': left operand must be l-value
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(49): error C2106: '=': left operand must be l-value
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(52): error C2039: 'toString': is not a member of 'Complex'
+  d:\hw 6\hw 14.7\hw 14.7\header.h(6): note: see declaration of 'Complex'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(54): error C2065: 'a': undeclared identifier
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(54): error C2065: 'b': undeclared identifier
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(54): error C2065: 'i': undeclared identifier
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(91): error C2872: 'ostream': ambiguous symbol
+  d:\hw 6\hw 14.7\hw 14.7\header.h(29): note: could be 'int ostream'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\iosfwd(679): note: or       'std::ostream'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(91): error C2143: syntax error: missing ';' before '&'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(91): error C2086: 'int ostream': redefinition
+  d:\hw 6\hw 14.7\hw 14.7\header.h(29): note: see declaration of 'ostream'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(91): error C2065: 'out': undeclared identifier
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(91): error C2059: syntax error: 'const'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(91): error C2143: syntax error: missing ';' before '{'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(91): error C2447: '{': missing function header (old-style formal list?)
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C2872: 'istream': ambiguous symbol
+  d:\hw 6\hw 14.7\hw 14.7\header.h(30): note: could be 'int istream'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\iosfwd(678): note: or       'std::istream'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C2143: syntax error: missing ';' before '&'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C2086: 'int istream': redefinition
+  d:\hw 6\hw 14.7\hw 14.7\header.h(30): note: see declaration of 'istream'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C2065: 'in': undeclared identifier
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C2065: 'c1': undeclared identifier
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C2275: 'Complex': illegal use of this type as an expression
+  d:\hw 6\hw 14.7\hw 14.7\header.h(6): note: see declaration of 'Complex'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C2473: 'operator >>': looks like a function definition, but there is no parameter list.
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(94): error C2448: '>>': function-style initializer appears to be a function definition
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(136): error C2039: 'toString': is not a member of 'Complex'
+  d:\hw 6\hw 14.7\hw 14.7\header.h(6): note: see declaration of 'Complex'
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(137): error C3867: 'Complex::operator +': non-standard syntax; use '&' to create a pointer to member
+d:\hw 6\hw 14.7\hw 14.7\source.cpp(138): error C3867: 'Complex::operator -': non-standard syntax; use '&' to create a pointer to member
